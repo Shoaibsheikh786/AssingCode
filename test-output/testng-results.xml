@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-07T22:23:18 IST" name="Default suite" finished-at="2025-04-07T22:23:18 IST" duration-ms="328">
+    <groups>
+    </groups>
+    <test started-at="2025-04-07T22:23:18 IST" name="Default test" finished-at="2025-04-07T22:23:18 IST" duration-ms="328">
+      <class name="com.swag_labs.tests.InventoryTests">
+        <test-method signature="verifyProductCheckoutFunctionality()[pri:0, instance:com.swag_labs.tests.InventoryTests@7e22550a]" started-at="2025-04-07T22:23:18 IST" name="verifyProductCheckoutFunctionality" finished-at="2025-04-07T22:23:18 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCheckoutFunctionality -->
+      </class> <!-- com.swag_labs.tests.InventoryTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
