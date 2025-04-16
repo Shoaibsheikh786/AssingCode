@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.swag_labs.tests.InventoryTests">
+      <class name="com.sel.day1.DropD">
         <methods>
-          <include name="verifyProductCheckoutFunctionality"/>
+          <include name="waits"/>
         </methods>
-      </class> <!-- com.swag_labs.tests.InventoryTests -->
+      </class> <!-- com.sel.day1.DropD -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
