@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sel.day1.DropD">
+      <class name="com.sel.day2.JsExecutor">
         <methods>
-          <include name="waits"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.sel.day1.DropD -->
+      </class> <!-- com.sel.day2.JsExecutor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
