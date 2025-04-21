@@ -31,6 +31,15 @@ public class ActionsClass {
 	
 	act.dragAndDrop(src, dest).build().perform();
 	
+//	act.doubleClick(src).build().perform();
+	
+//right click --> contextClick()
+	act.contextClick(src).build().perform();
+	
+	//mouseover
+	
+	act.moveToElement(src).build().perform();
+	
 	
 	}
 

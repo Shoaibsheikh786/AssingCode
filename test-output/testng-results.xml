@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-17T21:26:49 IST" name="Default suite" finished-at="2025-04-17T21:26:59 IST" duration-ms="10156">
+  <suite started-at="2025-04-21T21:26:59 IST" name="Default suite" finished-at="2025-04-21T21:27:06 IST" duration-ms="6540">
     <groups>
     </groups>
-    <test started-at="2025-04-17T21:26:49 IST" name="Default test" finished-at="2025-04-17T21:26:59 IST" duration-ms="10156">
-      <class name="com.sel.day2.ActionsClass">
-        <test-method signature="test1()[pri:0, instance:com.sel.day2.ActionsClass@41c204a0]" started-at="2025-04-17T21:26:49 IST" name="test1" finished-at="2025-04-17T21:26:58 IST" duration-ms="9572" status="PASS">
+    <test started-at="2025-04-21T21:26:59 IST" name="Default test" finished-at="2025-04-21T21:27:06 IST" duration-ms="6540">
+      <class name="com.sel.day3.DataDriven">
+        <test-method signature="readExcelFull()[pri:0, instance:com.sel.day3.DataDriven@61f3fbb8]" started-at="2025-04-21T21:26:59 IST" name="readExcelFull" finished-at="2025-04-21T21:27:05 IST" duration-ms="5819" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.sel.day2.ActionsClass -->
+        </test-method> <!-- readExcelFull -->
+      </class> <!-- com.sel.day3.DataDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

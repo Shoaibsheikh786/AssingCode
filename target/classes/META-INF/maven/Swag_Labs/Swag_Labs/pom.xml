@@ -19,7 +19,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>
-							regression.xml
+								regression.xml
 							</suiteXmlFile>
 						</suiteXmlFiles>
 						<argLine>
@@ -80,6 +80,18 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>2.0.17</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.3.0</version>
+		</dependency>
+
 	</dependencies>
 
 
