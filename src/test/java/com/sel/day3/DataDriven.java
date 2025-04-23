@@ -50,6 +50,10 @@ public class DataDriven {
 		
 	}
 	
+	//2 session TestNG 
+	//-> project, 
+	//-> Rest Assured -> java
+	//-> 
 	
 	@Test
 	public void readExcel() throws EncryptedDocumentException, IOException
@@ -101,10 +105,12 @@ public class DataDriven {
         	for(int j=0;j<row.getLastCellNum();j++)
         	{
         		System.out.print(row.getCell(j)+"  ");
+        		//findTheEle (username).sendkeys(str);
         	}
         	System.out.println("");
         }
 		
+        
 		
 	}
 

@@ -19,6 +19,7 @@
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>
+								reg.xml
 								regression.xml
 							</suiteXmlFile>
 						</suiteXmlFiles>
