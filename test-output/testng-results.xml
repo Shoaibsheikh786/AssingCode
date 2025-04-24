@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T21:27:17 IST" name="Suite" finished-at="2025-04-23T21:27:33 IST" duration-ms="16452">
+  <suite started-at="2025-04-24T21:22:49 IST" name="Default suite" finished-at="2025-04-24T21:23:00 IST" duration-ms="10724">
     <groups>
     </groups>
-    <test started-at="2025-04-23T21:27:17 IST" name="Test" finished-at="2025-04-23T21:27:33 IST" duration-ms="16452">
-      <class name="com.sel.day5.TestParalley">
-        <test-method signature="test4()[pri:0, instance:com.sel.day5.TestParalley@7435a578]" started-at="2025-04-23T21:27:17 IST" name="test4" finished-at="2025-04-23T21:27:32 IST" duration-ms="15553" status="PASS">
+    <test started-at="2025-04-24T21:22:49 IST" name="Default test" finished-at="2025-04-24T21:23:00 IST" duration-ms="10724">
+      <class name="com.pagemodel.FacebookTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pagemodel.FacebookTest@57adfab0]" started-at="2025-04-24T21:22:49 IST" name="setUp" finished-at="2025-04-24T21:22:57 IST" duration-ms="7928" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test3()[pri:0, instance:com.sel.day5.TestParalley@7435a578]" started-at="2025-04-23T21:27:17 IST" name="test3" finished-at="2025-04-23T21:27:33 IST" duration-ms="15996" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials()[pri:0, instance:com.pagemodel.FacebookTest@57adfab0]" started-at="2025-04-24T21:22:57 IST" name="loginWithInvalidCredentials" finished-at="2025-04-24T21:22:58 IST" duration-ms="956" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method signature="test2()[pri:0, instance:com.sel.day5.TestParalley@7435a578]" started-at="2025-04-23T21:27:17 IST" name="test2" finished-at="2025-04-23T21:27:32 IST" duration-ms="14711" status="PASS">
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method signature="loginWithInvalidCredentials2()[pri:0, instance:com.pagemodel.FacebookTest@57adfab0]" started-at="2025-04-24T21:22:59 IST" name="loginWithInvalidCredentials2" finished-at="2025-04-24T21:23:00 IST" duration-ms="803" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test1()[pri:0, instance:com.sel.day5.TestParalley@7435a578]" started-at="2025-04-23T21:27:17 IST" name="test1" finished-at="2025-04-23T21:27:33 IST" duration-ms="16109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.sel.day5.TestParalley -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginWithInvalidCredentials2 -->
+      </class> <!-- com.pagemodel.FacebookTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sel.day5.Listeners1">
+      <class name="com.pagemodel.FacebookTest">
         <methods>
-          <include name="test1"/>
+          <include name="loginWithInvalidCredentials"/>
         </methods>
-      </class> <!-- com.sel.day5.Listeners1 -->
+      </class> <!-- com.pagemodel.FacebookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
