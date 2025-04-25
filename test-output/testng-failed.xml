@@ -5,7 +5,8 @@
     <classes>
       <class name="com.pagemodel.FacebookTest">
         <methods>
-          <include name="loginWithInvalidCredentials"/>
+          <include name="setUp"/>
+          <include name="loginWithInvalidCredentials2"/>
         </methods>
       </class> <!-- com.pagemodel.FacebookTest -->
     </classes>

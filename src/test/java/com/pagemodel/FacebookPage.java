@@ -11,6 +11,7 @@ public class FacebookPage {
 	//2. Actions
 	//3. Constructor
 	
+	
 	@FindBy(xpath="//input[@id='email']")
 	private WebElement email;
 	public void enterEmail(String e)
@@ -28,6 +29,15 @@ public class FacebookPage {
 	FacebookPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
+	}
+	
+	
+	@FindBy(xpath="//a[text()='Create new account']")
+	WebElement createNewAccount;
+	
+	public void clicOnCreateNewAccount()
+	{
+		createNewAccount.click();
 	}
 	
 	
