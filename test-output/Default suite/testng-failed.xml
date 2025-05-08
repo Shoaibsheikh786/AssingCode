@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pagemodel.FacebookTest">
+      <class name="com.swag_labs.tests.ScreenRec">
         <methods>
-          <include name="setUp"/>
-          <include name="loginWithInvalidCredentials2"/>
+          <include name="sorting"/>
         </methods>
-      </class> <!-- com.pagemodel.FacebookTest -->
+      </class> <!-- com.swag_labs.tests.ScreenRec -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
