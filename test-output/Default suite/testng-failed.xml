@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.swag_labs.tests.ScreenRec">
+      <class name="api.day1.Day2">
         <methods>
-          <include name="sorting"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- com.swag_labs.tests.ScreenRec -->
+      </class> <!-- api.day1.Day2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

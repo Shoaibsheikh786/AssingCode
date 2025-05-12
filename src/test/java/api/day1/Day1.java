@@ -22,7 +22,6 @@ public class Day1 {
 		//validate the result
 		
 		RestAssured.given()
-		
 		.when()
 		.get("https://reqres.in/api/users?page=2")
 		.then().log().all();
