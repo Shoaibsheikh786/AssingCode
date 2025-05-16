@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-12T22:14:49 IST" name="Default suite" finished-at="2025-05-12T22:15:02 IST" duration-ms="13766">
+  <suite started-at="2025-05-16T22:32:09 IST" name="Default suite" finished-at="2025-05-16T22:32:23 IST" duration-ms="14521">
     <groups>
     </groups>
-    <test started-at="2025-05-12T22:14:49 IST" name="Default test" finished-at="2025-05-12T22:15:02 IST" duration-ms="13766">
-      <class name="api.day1.Day2DifferentWaysToCreatePayload">
-        <test-method signature="test1()[pri:0, instance:api.day1.Day2DifferentWaysToCreatePayload@50d3bf39]" started-at="2025-05-12T22:14:49 IST" name="test1" finished-at="2025-05-12T22:15:02 IST" duration-ms="13264" status="PASS">
+    <test started-at="2025-05-16T22:32:09 IST" name="Default test" finished-at="2025-05-16T22:32:23 IST" duration-ms="14521">
+      <class name="api.day2.ValidateBody">
+        <test-method signature="validateBody()[pri:0, instance:api.day2.ValidateBody@51dbd6e4]" started-at="2025-05-16T22:32:09 IST" name="validateBody" finished-at="2025-05-16T22:32:23 IST" duration-ms="13854" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- api.day1.Day2DifferentWaysToCreatePayload -->
+        </test-method> <!-- validateBody -->
+      </class> <!-- api.day2.ValidateBody -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
