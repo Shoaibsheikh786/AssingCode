@@ -22,7 +22,7 @@ public class ValidateBody {
 			res.then().log().body();
 			res.then().body("data.email", Matchers.equalTo("janet.weaver@reqres.in"));
 				
-				
+		// 1. Sdet pwan api Testin 9 videos  		
 	}
 
 }

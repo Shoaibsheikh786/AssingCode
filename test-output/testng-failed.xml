@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="api.day2.ValidateBody">
+      <class name="api.day3.JsonSchema1">
         <methods>
-          <include name="validateBody"/>
+          <include name="getAllStudent"/>
         </methods>
-      </class> <!-- api.day2.ValidateBody -->
+      </class> <!-- api.day3.JsonSchema1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

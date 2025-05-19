@@ -22,8 +22,7 @@ public class DealingWithHeadersAndCookies {
 		//Matchers.e
 		
 		//
-		
-		
+	
 	}
 	
 	@Test
